@@ -851,19 +851,3 @@
   };
 })();
 
-
-// Second row with Telegram button
-    const buttonRow2 = document.createElement("div");
-    buttonRow2.className = "button-row";
-    buttonRow2.style.marginTop = "10px";
-    
-    // Telegram button
-    const telegramBtn = document.createElement("button");
-    telegramBtn.textContent = "TeleGrams";
-    telegramBtn.className = "btn btn-telegram";
-    telegramBtn.style.gridColumnStart = "1";
-    telegramBtn.style.gridColumnEnd = "3";
-    telegramBtn.onclick = () => window.open('https://t.me/hacklqmbshopny123', '_blank');
-    buttonRow2.appendChild(telegramBtn);
-    
-    mainContent.appendChild(buttonRow2);
