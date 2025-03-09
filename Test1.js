@@ -814,16 +814,6 @@
         _0x182216.appendChild(_0x1b6ced);
         _0xca8580.appendChild(_0x182216);
 
-
-     //zalo
-     const _0x182216 = document.createElement("div");
-        _0x182216.className = "zalo-button-container";
-        const _0x1b6ced = document.createElement("button");
-        _0x1b6ced.textContent = "Liên hệ Zalo";
-        _0x1b6ced.className = "btn-zalo";
-        _0x1b6ced.onclick = () => window.open('https://zalo.me/g/xfflbz762', '_blank');
-        _0x182216.appendChild(_0x1b6ced);
-        _0xca8580.appendChild(_0x182216);
      
 
     const _0x1b5b4d = document.createElement("div");
