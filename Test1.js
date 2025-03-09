@@ -805,15 +805,14 @@
     buttonRow2.style.marginTop = "10px";
     
     // Telegram button
-    const telegramBtn = document.createElement("button");
-    telegramBtn.textContent = "TeleGrams";
-    telegramBtn.className = "btn btn-telegram";
-    telegramBtn.style.gridColumnStart = "1";
-    telegramBtn.style.gridColumnEnd = "3";
-    telegramBtn.onclick = () => window.open('https://t.me/hacklqmbshopny123', '_blank');
-    buttonRow2.appendChild(telegramBtn);
-    
-    mainContent.appendChild(buttonRow2);
+    const _0x182216 = document.createElement("div");
+        _0x182216.className = "telegram-button-container";
+        const _0x1b6ced = document.createElement("button");
+        _0x1b6ced.textContent = "Liên hệ Telegram";
+        _0x1b6ced.className = "btn-telegram";
+        _0x1b6ced.onclick = () => window.open('https://t.me/hacklqmbshopny123', '_blank');
+        _0x182216.appendChild(_0x1b6ced);
+        _0xca8580.appendChild(_0x182216);
 
 
     const _0x1b5b4d = document.createElement("div");
