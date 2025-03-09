@@ -839,11 +839,11 @@
     
     // Telegram button
     const telegramBtn = document.createElement("button");
-    telegramBtn.textContent = "tên hiển thị";
+    telegramBtn.textContent = "TeleGrams";
     telegramBtn.className = "btn btn-telegram";
     telegramBtn.style.gridColumnStart = "1";
     telegramBtn.style.gridColumnEnd = "3";
-    telegramBtn.onclick = () => window.open('link tele hoặc fb', '_blank');
+    telegramBtn.onclick = () => window.open('https://t.me/hacklqmbshopny123', '_blank');
     buttonRow2.appendChild(telegramBtn);
     
     mainContent.appendChild(buttonRow2);
